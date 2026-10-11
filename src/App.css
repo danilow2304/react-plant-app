@@ -1,0 +1,11 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; }
+.header { background: #2e7d32; color: white; text-align: center; padding: 1.5rem; }
+.header h1 { margin: 0; }
+.navigation { display: flex; justify-content: center; gap: 1.5rem; padding: 0.75rem; background: #c8e6c9; }
+.navigation a { color: #1b5e20; text-decoration: none; font-weight: bold; }
+.plant-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; padding: 1.5rem; max-width: 1000px; margin: 0 auto; }
+.plant-card { background: white; border-radius: 8px; padding: 1rem; text-align: center; }
+.plant-card h3 { margin: 0.5rem 0; }
+.plant-card p { margin: 0.25rem 0; }
+.emoji { font-size: 2.5rem; }
+.footer { text-align: center; padding: 1rem; background: #2e7d32; color: white; }
